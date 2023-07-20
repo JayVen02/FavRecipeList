@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    display: block;
+    /* background-color: rgb(201, 121, 51); */
+}
+
+h1{
+    text-align: center;
+    background-color: orangered;
+    color: white;
+     margin: 0;
+}
+
+#menu{
+    margin: 2%;
+
+}
+
+img {
+    margin: 1%;
+    width: auto;
+    height: 200px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+     -ms-transition: all 1s ease;
+         transition: all 1s ease;
+}
+
+img:hover{
+   width: auto;
+   height: 300px;
+}
+
+a{
+    color: black;
+    font-family: sans-serif;
+    font-size: 19px;
+}
+
+a:hover{
+    color: blue ;
+}
+
