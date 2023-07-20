@@ -1,4 +1,5 @@
 body{
+    font-family: sans-serif;
     margin: 2px;
 }
 
@@ -12,4 +13,20 @@ h1{
 img{
     height:auto; 
     width:400;
+}
+
+p{
+    margin:1%;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 18;
+    color: darkblue;
+    margin: 0;
+
+}
+
+ol>span{
+    color: darkblue;
 }
