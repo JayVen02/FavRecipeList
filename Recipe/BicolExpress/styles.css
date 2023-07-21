@@ -5,6 +5,7 @@
 body{
     font-family: sans-serif;
     margin: 2px;
+    background-color: burlywood;
 }
 
 .container {
@@ -17,13 +18,14 @@ body{
 }
 
 .cover{
+    color: black;
     height: 300px;
-    width: 800px;
+    width: 600px;
     border: 2px solid black;
     padding: 25px;
     background: url(Bicol.jpg);
     background-repeat: no-repeat;
-    background-size: 800px 300px;
+    background-size: 600px 300px;
 }
 
 p{
