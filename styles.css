@@ -6,7 +6,7 @@ body {
 
 h1 {
   text-align: center;
-  background-color: orangered;
+  background-color: rgb(8, 0, 255);
   color: white;
   margin: 0;
   padding: 20px;
@@ -18,9 +18,7 @@ h1 {
   box-sizing: border-box;
 }
 
-/* Slideshow */
 .content-section {
-  width: 100%;
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -31,57 +29,9 @@ h1 {
 
 .wrapper {
   width: 100%;
-  display: flex;
-  animation: slide 16s infinite;
-}
-
-/* Ensure that only the active slide is displayed */
-.mySlides {
-  display: none;
-}
-
-.mySlides.active {
-  display: block;
-}
-
-img {
-  width: 100%;
-  display: block;
-  margin: 0 auto; /* Center the image horizontally within the slide */
-}
-
-
-
-@keyframes slide {
-  0% {
-    transform: translateX(0);
-  }
-  25% {
-    transform: translateX(0);
-  }
-  30% {
-    transform: translateX(-100%);
-  }
-  50% {
-    transform: translateX(-100%);
-  }
-  55% {
-    transform: translateX(-200%);
-  }
-  75% {
-    transform: translateX(-200%);
-  }
-  80% {
-    transform: translateX(-300%);
-  }
-  100% {
-    transform: translateX(-300%);
-  }
-}
-
-img {
-  position: relative;
-  width: 25%; 
+  height: 300px; 
+  background-size: cover;
+  background-position: center;
 }
 
 .container {
@@ -90,15 +40,6 @@ img {
   width: 300px;
   height: 50%;
   margin: 20px;
-}
-
-.image {
-  opacity: 1;
-  display: block;
-  width: auto;
-  height: auto;
-  transition: 0.5s ease;
-  backface-visibility: hidden;
 }
 
 .middle {
@@ -121,7 +62,7 @@ img {
 }
 
 .link {
-  background-color: #04aa6d;
+  background-color: #099aaa;
   padding: 16px 32px;
   color: black;
   font-family: sans-serif;
