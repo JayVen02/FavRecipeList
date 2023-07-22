@@ -15,7 +15,7 @@ body{
     width: 600px;
     border: 2px solid black;
     padding: 25px;
-    background: url(Bicol.jpg);
+    background: url(chknAdobo.jpg);
     background-repeat: no-repeat;
     background-size: 600px 300px;
 }
@@ -30,8 +30,7 @@ body{
 }
 
 p{
-    margin: 1%;
-    font-weight: 600;
+    margin: 0;
 }
 
 h2{
